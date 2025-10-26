@@ -10,7 +10,6 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import Link from "next/link"
 import { Lock1, EyeSlash, Eye, ArrowRight2 } from 'iconsax-react';
-import FormFooter from "../miscellaneous/form-footer"
 
 const formSchema = z
     .object({
@@ -205,7 +204,6 @@ export default function ResetPasswordForm() {
                 </div>
             </div>
 
-            <FormFooter />
         </div>
     )
 }
