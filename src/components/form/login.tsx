@@ -165,9 +165,9 @@ export default function LoginForm() {
                                         </FormItem>
                                     )}
                                 />
-                                <Link to="/auth/forgot-password" className="text-sm underline hover:text-foreground">
+                                {/* <Link to="/auth/forgot-password" className="text-sm underline hover:text-foreground">
                                     Forgot password?
-                                </Link>
+                                </Link> */}
                             </div>
 
                             <Button type="submit" className="w-full text-base h-16 py-6 px-8 md:px-10 rounded-[15px] font-syne font-semibold">
