@@ -57,7 +57,7 @@ export default function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
             <div className="flex h-16 items-center border-b px-4">
                 {!isCollapsed && (
                     <Link to="/dashboard" className="font-syne text-xl font-bold">
-                        TicketApp
+                        - TixTic
                     </Link>
                 )}
                 {isCollapsed && (

@@ -204,13 +204,6 @@ export default function DashboardHome() {
                                                 className="cursor-pointer rounded-[18px] shadow-md transition-shadow hover:shadow-lg"
                                                 onClick={() => setEditingTicket(ticket)}
                                             >
-                                                {/* <CardHeader className="pb-3">
-                                                    <div className="flex items-start justify-between">
-                                                        <Badge className={`${column.color} border font-syne`}>
-                                                            {column.title}
-                                                        </Badge>
-                                                    </div>
-                                                </CardHeader> */}
                                                 <CardContent className="space-y-3">
                                                     <h3 className="font-syne text-lg font-bold leading-tight">
                                                         {ticket.title}

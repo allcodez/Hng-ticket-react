@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Toaster position="top-right" richColors />
       <Routes>
-        <Route path="/" element={<div>Landing Page</div>} />
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
         <Route path="/auth/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
 

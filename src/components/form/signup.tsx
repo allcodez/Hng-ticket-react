@@ -79,7 +79,7 @@ export default function SignupForm() {
         <div className="flex flex-col h-full justify-between">
             <div className="flex items-center justify-end gap-4 p-6">
                 <span className="text-muted-foreground font-syne">Already have an account?</span>
-                <Link to="/login">
+                <Link to="/auth/login">
                     <Button variant="outline" className="bg-transparent text-base py-6 px-4 border-0 font-syne flex items-center font-semibold">
                         Sign In
                         <ArrowRight2 size="35" color="#000000" />
